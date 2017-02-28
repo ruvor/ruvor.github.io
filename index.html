@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html class="ltr" dir="ltr" lang="en-US">
+
+<head>
+    <title>Подстраница - Лайфрей</title>
+    <meta content="initial-scale=1.0, width=device-width" name="viewport" />
+    <link href="css/mentions.css" rel="stylesheet" type="text/css" />
+    <link href="css/o_dynamic-data-mapping-form-renderer_css_main.css" rel="stylesheet" type="text/css" />
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+    <link data-senna-track="temporary" href="images/favicon.ico" rel="Shortcut Icon" />
+    <link class="lfr-css-file" data-senna-track="temporary" href="css/o_styled-7-theme_css_aui.css" id="liferayAUICSS" rel="stylesheet" type="text/css" />
+    <link data-senna-track="temporary" href="css/o_frontend-css-web_main.css" id="liferayPortalCSS" rel="stylesheet" type="text/css" />
+    <link data-senna-track="permanent" href="css/combo.css" id="46670291" rel="stylesheet" type="text/css" />
+    <script data-senna-track="temporary" type="text/javascript">
+        var Liferay = Liferay || {};
+        Liferay.Browser = {
+            acceptsGzip: function() {
+                return !0
+            },
+            getMajorVersion: function() {
+                return 56
+            },
+            getRevision: function() {
+                return "537.36"
+            },
+            getVersion: function() {
+                return "56.0"
+            },
+            isAir: function() {
+                return !1
+            },
+            isChrome: function() {
+                return !0
+            },
+            isFirefox: function() {
+                return !1
+            },
+            isGecko: function() {
+                return !0
+            },
+            isIe: function() {
+                return !1
+            },
+            isIphone: function() {
+                return !1
+            },
+            isLinux: function() {
+                return !1
+            },
+            isMac: function() {
+                return !1
+            },
+            isMobile: function() {
+                return !1
+            },
+            isMozilla: function() {
+                return !1
+            },
+            isOpera: function() {
+                return !1
+            },
+            isRtf: function() {
+                return !0
+            },
+            isSafari: function() {
+                return !0
+            },
+            isSun: function() {
+                return !1
+            },
+            isWebKit: function() {
+                return !0
+            },
+            isWindows: function() {
+                return !0
+            }
+        };
+        Liferay.Data = Liferay.Data || {};
+        Liferay.Data.NAV_SELECTOR = "#navigation";
+        Liferay.Data.NAV_SELECTOR_MOBILE = "#navigationCollapse";
+        Liferay.Data.isCustomizationView = function() {
+            return !1
+        };
+        Liferay.Data.notices = [null];
+        Liferay.PortletKeys = {
+            DOCUMENT_LIBRARY: "com_liferay_document_library_web_portlet_DLPortlet",
+            DYNAMIC_DATA_MAPPING: "com_liferay_dynamic_data_mapping_web_portlet_DDMPortlet",
+            ITEM_SELECTOR: "com_liferay_item_selector_web_portlet_ItemSelectorPortlet"
+        };
+        Liferay.PropsValues = {
+            JAVASCRIPT_SINGLE_PAGE_APPLICATION_TIMEOUT: 3E4,
+            NTLM_AUTH_ENABLED: !1,
+            UPLOAD_SERVLET_REQUEST_IMPL_MAX_SIZE: 104857600
+        };
+        Liferay.ThemeDisplay = {
+            getLayoutId: function() {
+                return "17"
+            },
+            getLayoutRelativeURL: function() {
+                return "/web/guest/podstranica"
+            },
+            getLayoutURL: function() {
+                return "http://localhost:8080/web/guest/podstranica"
+            },
+            getParentLayoutId: function() {
+                return "13"
+            },
+            isControlPanel: function() {
+                return !1
+            },
+            isPrivateLayout: function() {
+                return "false"
+            },
+            isVirtualLayout: function() {
+                return !1
+            },
+            getBCP47LanguageId: function() {
+                return "en-US"
+            },
+            getCDNBaseURL: function() {
+                return "http://localhost:8080"
+            },
+            getCDNDynamicResourcesHost: function() {
+                return ""
+            },
+            getCDNHost: function() {
+                return ""
+            },
+            getCompanyGroupId: function() {
+                return "20160"
+            },
+            getCompanyId: function() {
+                return "20116"
+            },
+            getDefaultLanguageId: function() {
+                return "en_US"
+            },
+            getDoAsUserIdEncoded: function() {
+                return ""
+            },
+            getLanguageId: function() {
+                return "en_US"
+            },
+            getParentGroupId: function() {
+                return "20147"
+            },
+            getPathContext: function() {
+                return ""
+            },
+            getPathImage: function() {
+                return "/image"
+            },
+            getPathJavaScript: function() {
+                return "/o/frontend-js-web"
+            },
+            getPathMain: function() {
+                return "/c"
+            },
+            getPathThemeImages: function() {
+                return "http://localhost:8080/o/styled-7-theme/images"
+            },
+            getPathThemeRoot: function() {
+                return "/o/styled-7-theme"
+            },
+            getPlid: function() {
+                return "40001"
+            },
+            getPortalURL: function() {
+                return "http://localhost:8080"
+            },
+            getScopeGroupId: function() {
+                return "20147"
+            },
+            getScopeGroupIdOrLiveGroupId: function() {
+                return "20147"
+            },
+            getSessionId: function() {
+                return ""
+            },
+            getSiteGroupId: function() {
+                return "20147"
+            },
+            getURLControlPanel: function() {
+                return "/group/control_panel?refererPlid\x3d40001"
+            },
+            getURLHome: function() {
+                return "http://localhost:8080/web/guest"
+            },
+            getUserId: function() {
+                return "20164"
+            },
+            getUserName: function() {
+                return "Test Test"
+            },
+            isAddSessionIdToURL: function() {
+                return !1
+            },
+            isFreeformLayout: function() {
+                return !1
+            },
+            isImpersonated: function() {
+                return !1
+            },
+            isSignedIn: function() {
+                return !0
+            },
+            isStateExclusive: function() {
+                return !1
+            },
+            isStateMaximized: function() {
+                return !1
+            },
+            isStatePopUp: function() {
+                return !1
+            }
+        };
+        var themeDisplay = Liferay.ThemeDisplay;
+        Liferay.AUI = {
+            getAvailableLangPath: function() {
+                return "available_languages.jsp?browserId\x3dother\x26themeId\x3dstyled7_WAR_styled7theme\x26colorSchemeId\x3d01\x26minifierType\x3djs\x26languageId\x3den_US\x26b\x3d7002\x26t\x3d1484643298984"
+            },
+            getCombine: function() {
+                return !0
+            },
+            getComboPath: function() {
+                return "/combo/?browserId\x3dother\x26minifierType\x3d\x26languageId\x3den_US\x26b\x3d7002\x26t\x3d1484643298984\x26"
+            },
+            getDateFormat: function() {
+                return "%m/%d/%Y"
+            },
+            getEditorCKEditorPath: function() {
+                return "/o/frontend-editor-ckeditor-web"
+            },
+            getFilter: function() {
+                return "min"
+            },
+            getFilterConfig: function() {
+                var a = null;
+                this.getCombine() || (a = {
+                    replaceStr: ".js" + this.getStaticResourceURLParams(),
+                    searchExp: "\\.js$"
+                });
+                return a
+            },
+            getJavaScriptRootPath: function() {
+                return "/o/frontend-js-web"
+            },
+            getLangPath: function() {
+                return "aui_lang.jsp?browserId\x3dother\x26themeId\x3dstyled7_WAR_styled7theme\x26colorSchemeId\x3d01\x26minifierType\x3djs\x26languageId\x3den_US\x26b\x3d7002\x26t\x3d1484643298984"
+            },
+            getPortletRootPath: function() {
+                return "/html/portlet"
+            },
+            getStaticResourceURLParams: function() {
+                return "?browserId\x3dother\x26minifierType\x3d\x26languageId\x3den_US\x26b\x3d7002\x26t\x3d1484643298984"
+            }
+        };
+        Liferay.authToken = "hhQd5CoS";
+        Liferay.currentURL = "/web/guest/podstranica";
+        Liferay.currentURLEncoded = "%2Fweb%2Fguest%2Fpodstranica";
+    </script>
+    <script src="js/o_js_loader_modules.js" type="text/javascript"></script>
+    <script src="js/o_frontend-js-web_everything.jsp.js" type="text/javascript"></script>
+    <!--
+        Предыдущий скрипт пытался грузить жаваскрипы и сссы.
+        Они были скачаны вручную и всунуты далее насильно в том же порядке, в котором оно пыталось.
+        Даже в несколько итераций, потому что после добавления первых появлялись новые.
+        Удалось избавиться почти от всех ошибок в консоли.
+        Остались
+        /combo/?browserId=other&minifierType=&languageId=en_US&b=7002&t=1484643298984&/o/frontend-js-web/aui/cssbutton/cssbutton-min.css (3 раза),
+        /combo/?browserId=other&minifierType=&languageId=en_US&b=7002&t=1484643298984&/o/frontend-js-web/liferay/language.js
+        Но их содержимое тоже загружено, пусть ругается.
+    -->
+    <!-- /combo/?browserId=other&minifierType=&languageId=en_US&b=7002&t=1484643298984&/o/frontend-js-metal-web-1.0.7/metal/src/core.js&/o/frontend-js-metal-web-1.0.7/metal/src/array/array.js&/o/frontend-js-metal-web-1.0.7/metal/src/async/async.js&/o/frontend-js-metal-web-1.0.7/metal/src/disposable/Disposable.js&/o/frontend-js-metal-web-1.0.7/metal/src/object/object.js&/o/frontend-js-metal-web-1.0.7/metal/src/string/string.js&/o/frontend-js-metal-web-1.0.7/metal/src/metal.js&/o/frontend-js-metal-web-1.0.7/metal-events/src/EventHandle.js&/o/frontend-js-metal-web-1.0.7/metal-events/src/EventEmitter.js&/o/frontend-js-metal-web-1.0.7/metal-events/src/EventEmitterProxy.js&/o/frontend-js-metal-web-1.0.7/metal-events/src/EventHandler.js&/o/frontend-js-metal-web-1.0.7/metal-events/src/events.js&/o/frontend-js-metal-web-1.0.7/metal-dom/src/DomEventHandle.js&/o/frontend-js-metal-web-1.0.7/metal-dom/src/dom.js&/o/frontend-js-metal-web-1.0.7/metal-dom/src/DomEventEmitterProxy.js&/o/frontend-js-metal-web-1.0.7/metal-dom/src/features.js&/o/frontend-js-metal-web-1.0.7/metal-dom/src/globalEval.js&/o/frontend-js-metal-web-1.0.7/metal-dom/src/globalEvalStyles.js&/o/frontend-js-metal-web-1.0.7/metal-dom/src/events.js&/o/frontend-js-metal-web-1.0.7/metal-dom/src/all/dom.js&/o/frontend-js-metal-web-1.0.7/metal-promise/src/promise/Promise.js&/o/frontend-js-spa-web-1.0.10/senna/src/globals/globals.js&/o/frontend-js-spa-web-1.0.10/metal-uri/src/parseFromAnchor.js&/o/frontend-js-spa-web-1.0.10/metal-uri/src/parse.js&/o/frontend-js-spa-web-1.0.10/metal-multimap/src/MultiMap.js&/o/frontend-js-spa-web-1.0.10/metal-uri/src/Uri.js&/o/frontend-js-spa-web-1.0.10/metal-ajax/src/Ajax.js&/o/frontend-js-spa-web-1.0.10/senna/src/errors/errors.js&/o/frontend-js-spa-web-1.0.10/senna/src/utils/utils.js&/o/frontend-js-spa-web-1.0.10/senna/src/cacheable/Cacheable.js&/o/frontend-js-spa-web-1.0.10/senna/src/screen/Screen.js&/o/frontend-js-spa-web-1.0.10/metal-useragent/src/UA.js -->
+    <script src="js/combo0.js" type="text/javascript"></script>
+    <!-- /combo/?browserId=other&minifierType=&languageId=en_US&b=7002&t=1484643298984&/o/frontend-js-spa-web-1.0.10/senna/src/screen/RequestScreen.js&/o/frontend-js-spa-web-1.0.10/senna/src/surface/Surface.js&/o/frontend-js-spa-web-1.0.10/senna/src/screen/HtmlScreen.js&/o/frontend-js-spa-web-1.0.10/liferay/util/Utils.es.js&/o/frontend-js-spa-web-1.0.10/liferay/screen/EventScreen.es.js&/o/frontend-js-spa-web-1.0.10/liferay/screen/ActionURLScreen.es.js&/o/frontend-js-spa-web-1.0.10/senna/src/route/Route.js&/o/frontend-js-spa-web-1.0.10/senna/src/app/App.js&/o/frontend-js-spa-web-1.0.10/liferay/surface/Surface.es.js&/o/frontend-js-spa-web-1.0.10/liferay/app/App.es.js&/o/frontend-js-spa-web-1.0.10/liferay/screen/RenderURLScreen.es.js&/o/frontend-js-spa-web-1.0.10/liferay/init.es.js -->
+    <script src="js/combo1.js" type="text/javascript"></script>
+    <!-- /combo/?browserId=other&minifierType=&languageId=en_US&b=7002&t=1484643298984&/o/frontend-js-web/aui/event-move/event-move-min.js -->
+    <script src="js/combo2.js" type="text/javascript"></script>
+    <!-- /combo/?browserId=other&minifierType=&languageId=en_US&b=7002&t=1484643298984&/o/frontend-js-web/aui/widget-base/assets/skins/sam/widget-base.css&/o/frontend-js-web/aui/widget-stack/assets/skins/sam/widget-stack.css&/o/frontend-js-web/aui/aui-tooltip-base/assets/skins/sam/aui-tooltip-base.css&/o/frontend-js-web/aui/cssbutton/cssbutton-min.css&/o/frontend-js-web/aui/widget-modality/assets/skins/sam/widget-modality.css&/o/frontend-js-web/aui/aui-button-core/assets/skins/sam/aui-button-core.css&/o/frontend-js-web/aui/aui-modal/assets/skins/sam/aui-modal.css&/o/frontend-js-web/aui/resize-base/assets/skins/sam/resize-base.css -->
+    <link href="css/combo3.css" rel="stylesheet" type="text/css" />
+    <!-- /o/frontend-js-web/liferay/available_languages.jsp?browserId=other&themeId=styled7_WAR_styled7theme&colorSchemeId=01&minifierType=js&languageId=en_US&b=7002&t=1484643298984 -->
+    <script src="js/o_frontend-js-web_liferay_available_languages.jsp.js" type="text/javascript"></script>
+    <!-- /combo/?browserId=other&minifierType=&languageId=en_US&b=7002&t=1484643298984&/o/frontend-js-web/aui/escape/escape-min.js&/o/frontend-js-web/aui/base-core/base-core-min.js&/o/frontend-js-web/aui/base-observable/base-observable-min.js&/o/frontend-js-web/aui/widget-autohide/widget-autohide-min.js&/o/frontend-js-web/aui/aui-widget-cssclass/aui-widget-cssclass-min.js&/o/frontend-js-web/aui/aui-widget-toggle/aui-widget-toggle-min.js&/o/frontend-js-web/aui/transition/transition-min.js&/o/frontend-js-web/aui/aui-widget-transition/aui-widget-transition-min.js&/o/frontend-js-web/aui/aui-widget-trigger/aui-widget-trigger-min.js&/o/frontend-js-web/aui/aui-widget-position-align-suggestion/aui-widget-position-align-suggestion-min.js&/o/frontend-js-web/aui/aui-tooltip-base/aui-tooltip-base-min.js&/o/frontend-js-web/aui/aui-tooltip-delegate/aui-tooltip-delegate-min.js&/o/frontend-js-web/liferay/store.js&/o/frontend-js-web/aui/event-move/event-move-min.js -->
+    <script src="js/combo4.js" type="text/javascript"></script>
+    <!-- /combo/?browserId=other&minifierType=&languageId=en_US&b=7002&t=1484643298984&/o/frontend-js-web/aui/event-flick/event-flick-min.js&/o/frontend-js-web/aui/event-valuechange/event-valuechange-min.js&/o/frontend-js-web/aui/event-tap/event-tap-min.js&/o/frontend-js-web/aui/dd-ddm/dd-ddm-min.js&/o/frontend-js-web/aui/dd-ddm-drop/dd-ddm-drop-min.js&/o/frontend-js-web/aui/dd-drop/dd-drop-min.js&/o/frontend-js-web/aui/dd-drop-plugin/dd-drop-plugin-min.js&/o/frontend-js-web/aui/dd-delegate/dd-delegate-min.js&/o/frontend-js-web/aui/resize-base/resize-base-min.js&/o/frontend-js-web/aui/resize-plugin/resize-plugin-min.js&/o/frontend-js-web/aui/aui-modal/aui-modal-min.js&/o/frontend-js-web/aui/aui-modal-resize/aui-modal-resize-min.js&/o/frontend-js-web/liferay/widget_zindex.js&/o/frontend-js-web/liferay/util_window.js&/o/frontend-js-web/liferay/navigation.js&/o/frontend-js-web/liferay/language.js&/o/frontend-js-web/liferay/layout.js -->
+    <script src="js/combo5.js" type="text/javascript"></script>
+    <!-- /combo/?browserId=other&minifierType=&languageId=en_US&b=7002&t=1484643298984&/o/product-navigation-taglib/control_menu/js/product_navigation_control_menu.js&/o/frontend-js-web/aui/aui-dialog-iframe-deprecated/aui-dialog-iframe-deprecated-min.js&/o/frontend-js-web/aui/button-core/button-core-min.js&/o/frontend-js-web/aui/button-plugin/button-plugin-min.js&/o/frontend-js-web/aui/widget-buttons/widget-buttons-min.js&/o/frontend-js-web/aui/widget-modality/widget-modality-min.js&/o/frontend-js-web/aui/dd-ddm-base/dd-ddm-base-min.js&/o/frontend-js-web/aui/dd-drag/dd-drag-min.js&/o/frontend-js-web/aui/dd-plugin/dd-plugin-min.js&/o/frontend-js-web/aui/dd-constrain/dd-constrain-min.js&/o/frontend-js-web/aui/timers/timers-min.js&/o/frontend-js-web/aui/button/button-min.js&/o/frontend-js-web/aui/button-group/button-group-min.js&/o/frontend-js-web/aui/aui-button-core/aui-button-core-min.js&/o/frontend-js-web/aui/aui-toolbar/aui-toolbar-min.js&/o/frontend-js-web/aui/aui-widget-toolbars/aui-widget-toolbars-min.js -->
+    <script src="js/combo6.js" type="text/javascript"></script>
+    <!-- /combo/?browserId=other&minifierType=&languageId=en_US&b=7002&t=1484643298984&/o/frontend-js-web/aui/widget-base/assets/skins/sam/widget-base.css&/o/frontend-js-web/aui/widget-stack/assets/skins/sam/widget-stack.css&/o/frontend-js-web/aui/aui-tooltip-base/assets/skins/sam/aui-tooltip-base.css -->
+    <link href="css/combo7.css" rel="stylesheet" type="text/css" />
+    <!-- /combo/?browserId=other&minifierType=&languageId=en_US&b=7002&t=1484643298984&/o/product-navigation-taglib/control_menu/js/product_navigation_control_menu.js&/o/frontend-js-web/liferay/navigation.js&/o/frontend-js-web/liferay/layout.js -->
+    <script src="js/combo8.js" type="text/javascript"></script>
+    <!-- /combo/?browserId=other&minifierType=&languageId=en_US&b=7002&t=1484643298984&/o/frontend-js-web/aui/escape/escape-min.js&/o/frontend-js-web/aui/base-core/base-core-min.js&/o/frontend-js-web/aui/base-observable/base-observable-min.js&/o/frontend-js-web/aui/widget-autohide/widget-autohide-min.js&/o/frontend-js-web/aui/aui-widget-cssclass/aui-widget-cssclass-min.js&/o/frontend-js-web/aui/aui-widget-toggle/aui-widget-toggle-min.js&/o/frontend-js-web/aui/transition/transition-min.js&/o/frontend-js-web/aui/aui-widget-transition/aui-widget-transition-min.js&/o/frontend-js-web/aui/aui-widget-trigger/aui-widget-trigger-min.js&/o/frontend-js-web/aui/aui-widget-position-align-suggestion/aui-widget-position-align-suggestion-min.js&/o/frontend-js-web/aui/aui-tooltip-base/aui-tooltip-base-min.js&/o/frontend-js-web/aui/aui-tooltip-delegate/aui-tooltip-delegate-min.js&/o/frontend-js-web/liferay/store.js&/o/frontend-js-web/aui/event-move/event-move-min.js -->
+    <script src="js/combo9.js" type="text/javascript"></script>
+    <!-- /combo/?browserId=other&minifierType=&languageId=en_US&b=7002&t=1484643298984&/o/frontend-js-web/aui/cssbutton/cssbutton-min.css -->
+    <link href="css/combo10.css" rel="stylesheet" type="text/css" />
+    <!-- /combo/?browserId=other&minifierType=&languageId=en_US&b=7002&t=1484643298984&/o/frontend-js-web/aui/autocomplete-base/autocomplete-base-min.js&/o/frontend-js-web/aui/text-data-wordbreak/text-data-wordbreak-min.js&/o/frontend-js-web/aui/text-wordbreak/text-wordbreak-min.js&/o/frontend-js-web/aui/autocomplete-filters/autocomplete-filters-min.js&/o/frontend-js-web/aui/highlight-base/highlight-base-min.js&/o/frontend-js-web/aui/autocomplete-highlighters/autocomplete-highlighters-min.js&/o/frontend-js-web/liferay/menu_filter.js&/o/frontend-js-web/liferay/menu_toggle.js&/o/frontend-js-web/liferay/language.js -->
+    <script src="js/combo11.js" type="text/javascript"></script>
+    <!-- /combo/?browserId=other&minifierType=&languageId=en_US&b=7002&t=1484643298984&/o/frontend-js-web/aui/dd-scroll/dd-scroll-min.js&/o/frontend-js-web/aui/dd-proxy/dd-proxy-min.js&/o/frontend-js-web/liferay/dd_proxy.js&/o/frontend-js-web/aui/sortable/sortable-min.js&/o/frontend-js-web/liferay/sortable.js -->
+    <script src="js/combo12.js" type="text/javascript"></script>
+    <!-- /combo/?browserId=other&minifierType=&languageId=en_US&b=7002&t=1484643298984&/o/frontend-js-web/liferay/language.js -->
+    <script src="js/combo13.js" type="text/javascript"></script>
+    <!-- /combo/?browserId=other&minifierType=&languageId=en_US&b=7002&t=1484643298984&/o/frontend-js-web/aui/aui-autosize-deprecated/aui-autosize-deprecated-min.js&/o/frontend-js-web/aui/aui-form-field-deprecated/aui-form-field-deprecated-min.js&/o/frontend-js-web/aui/aui-form-textfield-deprecated/aui-form-textfield-deprecated-min.js&/o/frontend-js-web/aui/aui-form-textarea-deprecated/aui-form-textarea-deprecated-min.js&/o/frontend-js-web/aui/aui-form-combobox-deprecated/aui-form-combobox-deprecated-min.js&/o/frontend-js-web/aui/aui-editable-deprecated/aui-editable-deprecated-min.js -->
+    <script src="js/combo14.js" type="text/javascript"></script>
+    <!-- /combo/?browserId=other&minifierType=&languageId=en_US&b=7002&t=1484643298984&/o/frontend-js-web/aui/aui-sortable-layout/assets/skins/sam/aui-sortable-layout.css -->
+    <link href="css/combo15.css" rel="stylesheet" type="text/css" />
+    <!-- /combo/?browserId=other&minifierType=&languageId=en_US&b=7002&t=1484643298984&/o/frontend-js-web/aui/aui-sortable-layout/aui-sortable-layout-min.js&/o/frontend-js-web/liferay/layout_column.js -->
+    <script src="js/combo16.js" type="text/javascript"></script>
+
+    <script src="js/o_js_bundle_config.js" type="text/javascript"></script>
+    <script data-senna-track="temporary" type="text/javascript">
+        Liferay.Portlet.list = ["com_liferay_hello_world_web_portlet_HelloWorldPortlet", "com_liferay_product_navigation_user_personal_bar_web_portlet_ProductNavigationUserPersonalBarPortlet", "com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet", "com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet"];
+        Liferay._editControlsState = "hidden";
+    </script>
+    <link class="lfr-css-file" data-senna-track="temporary" href="css/o_styled-7-theme_css_main.css" id="liferayThemeCSS" rel="stylesheet" type="text/css" />
+    <style data-senna-track="temporary" type="text/css"></style>
+    <link data-senna-track="temporary" href="css/combo1.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+        require("frontend-js-spa-web/liferay/init.es", function(a) {
+            (function() {
+                Liferay.SPA = Liferay.SPA || {};
+                Liferay.SPA.cacheExpirationTime = -1;
+                Liferay.SPA.clearScreensCache = !1;
+                Liferay.SPA.excludedPaths = ["/documents", "/image"];
+                Liferay.SPA.loginRedirect = "";
+                a.default.init(function(b) {
+                    b.setPortletsBlacklist({
+                        com_liferay_site_navigation_directory_web_portlet_SitesDirectoryPortlet: !0,
+                        com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet: !0,
+                        com_liferay_layout_admin_web_portlet_MyPagesPortlet: !0
+                    });
+                    b.setValidStatusCodes([221,
+                        490, 494, 499, 491, 492, 493, 495, 220
+                    ])
+                })
+            })()
+        }, function(a) {
+            console.error(a)
+        });
+    </script>
+    <!--
+        Предыдущий скрипт пытался сделать
+        <script src="/combo/?browserId=other&amp;minifierType=&amp;languageId=en_US&amp;b=7002&amp;t=1484643298984&amp;/o/frontend-js-metal-web-1.0.7/metal/src/core.js&amp;/o/frontend-js-metal-web-1.0.7/metal/src/array/array.js&amp;/o/frontend-js-metal-web-1.0.7/metal/src/async/async.js&amp;/o/frontend-js-metal-web-1.0.7/metal/src/disposable/Disposable.js&amp;/o/frontend-js-metal-web-1.0.7/metal/src/object/object.js&amp;/o/frontend-js-metal-web-1.0.7/metal/src/string/string.js&amp;/o/frontend-js-metal-web-1.0.7/metal/src/metal.js&amp;/o/frontend-js-metal-web-1.0.7/metal-events/src/EventHandle.js&amp;/o/frontend-js-metal-web-1.0.7/metal-events/src/EventEmitter.js&amp;/o/frontend-js-metal-web-1.0.7/metal-events/src/EventEmitterProxy.js&amp;/o/frontend-js-metal-web-1.0.7/metal-events/src/EventHandler.js&amp;/o/frontend-js-metal-web-1.0.7/metal-events/src/events.js&amp;/o/frontend-js-metal-web-1.0.7/metal-dom/src/DomEventHandle.js&amp;/o/frontend-js-metal-web-1.0.7/metal-dom/src/dom.js&amp;/o/frontend-js-metal-web-1.0.7/metal-dom/src/DomEventEmitterProxy.js&amp;/o/frontend-js-metal-web-1.0.7/metal-dom/src/features.js&amp;/o/frontend-js-metal-web-1.0.7/metal-dom/src/globalEval.js&amp;/o/frontend-js-metal-web-1.0.7/metal-dom/src/globalEvalStyles.js&amp;/o/frontend-js-metal-web-1.0.7/metal-dom/src/events.js&amp;/o/frontend-js-metal-web-1.0.7/metal-dom/src/all/dom.js&amp;/o/frontend-js-metal-web-1.0.7/metal-promise/src/promise/Promise.js&amp;/o/frontend-js-spa-web-1.0.10/senna/src/globals/globals.js&amp;/o/frontend-js-spa-web-1.0.10/metal-uri/src/parseFromAnchor.js&amp;/o/frontend-js-spa-web-1.0.10/metal-uri/src/parse.js&amp;/o/frontend-js-spa-web-1.0.10/metal-multimap/src/MultiMap.js&amp;/o/frontend-js-spa-web-1.0.10/metal-uri/src/Uri.js&amp;/o/frontend-js-spa-web-1.0.10/metal-ajax/src/Ajax.js&amp;/o/frontend-js-spa-web-1.0.10/senna/src/errors/errors.js&amp;/o/frontend-js-spa-web-1.0.10/senna/src/utils/utils.js&amp;/o/frontend-js-spa-web-1.0.10/senna/src/cacheable/Cacheable.js&amp;/o/frontend-js-spa-web-1.0.10/senna/src/screen/Screen.js&amp;/o/frontend-js-spa-web-1.0.10/metal-useragent/src/UA.js"></script>
+        который, естественно, не загрузился.
+        Его содержимое грузится в следующем скрипте.
+    -->
+    <script src="js/combor.js" type="text/javascript"></script>
+
+    <link href="css/custom.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="controls-hidden has-control-menu closed yui3-skin-sam guest-site signed-in public-page site">
+    <nav class="quick-access-nav" id="zgkp_quickAccessNav">
+        <h1 class="hide-accessible">Navigation</h1>
+        <ul>
+            <li><a href="#main-content">Skip to Content</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="control-menu control-menu-level-1" data-qa-id="controlMenu" id="ControlMenu">
+        <div class="container-fluid-1280">
+            <ul class="control-menu-level-1-nav control-menu-nav" data-namespace="" data-qa-id="header" id="controlMenu">
+                <li class="control-menu-nav-category sites-control-group">
+                    <ul class="control-menu-nav">
+                        <li class="control-menu-nav-item ">
+                            <a class="control-menu-icon lfr-portal-tooltip product-menu-toggle sidenav-toggler" data-content="body" data-qa-id="productMenu" data-target="#_com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet_sidenavSliderId" data-title="Menu" data-toggle="sidenav" data-type="fixed-push" data-type-mobile="fixed" data-url='' href="javascript:;" id="_com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet_sidenavToggleId">
+                                <div class="toast-animation">
+                                    <div class="pm"></div>
+                                    <div class="cn"></div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="control-menu-nav-category tools-control-group">
+                    <ul class="control-menu-nav">
+                        <li class="control-menu-nav-item"> <span class=" lfr-portal-tooltip" title="Toggle Controls"> <a href="javascript&#x3a;&#x3b;" target="_self" class="control-menu-icon toggle-controls visible-xs lfr-icon-item taglib-icon" id="ctvk__null__null" data-qa-id="showControls" > <span class="" id=""> <svg class="lexicon-icon lexicon-icon-hidden" role="img" title="" > <use xlink:href="images/icons.svg#hidden" /> </svg> <span class="taglib-icon-label"> </span> </span> <span class="taglib-text hide-accessible">Toggle Controls</span> </a>
+                            </span>
+                        </li>
+                    </ul>
+                </li>
+                <li class="control-menu-nav-category user-control-group">
+                    <ul class="control-menu-nav">
+                        <li class="control-menu-nav-item">
+                            <a class="control-menu-icon lfr-portal-tooltip" data-qa-id="editLayout" data-title="Configure Page" href=""> <span class="" id=""> <svg class="lexicon-icon lexicon-icon-cog" role="img" title="" > <use xlink:href="images/icons.svg#cog" /> </svg> <span class="taglib-icon-label"> </span> </span>
+                            </a>
+                        </li>
+                        <li class="control-menu-nav-item">
+                            <a class="control-menu-icon lfr-portal-tooltip product-menu-toggle sidenav-toggler" data-content="body" data-open-class="open-admin-panel" data-qa-id="add" data-target="#_com_liferay_product_navigation_control_menu_web_portlet_ProductNavigationControlMenuPortlet_addPanelId" data-title="Add" data-toggle="sidenav" data-type="fixed-push" data-type-mobile="fixed" data-url="" href="javascript:;" id="_com_liferay_product_navigation_control_menu_web_portlet_ProductNavigationControlMenuPortlet_addToggleId"> <span class="" id=""> <svg class="lexicon-icon lexicon-icon-plus" role="img" title="" > <use xlink:href="images/icons.svg#plus" /> </svg> <span class="taglib-icon-label"> </span> </span>
+                            </a>
+                        </li>
+                        <li class="control-menu-nav-item hidden-xs simulation-icon">
+                            <a class="control-menu-icon lfr-portal-tooltip product-menu-toggle sidenav-toggler" data-content="body" data-open-class="lfr-has-simulation-panel open-admin-panel" data-qa-id="simulation" data-target="#_com_liferay_product_navigation_simulation_web_portlet_SimulationPortlet_simulationPanelId" data-title="Simulation" data-toggle="sidenav" data-type="fixed-push" data-type-mobile="fixed" data-url="" href="javascript:;" id="_com_liferay_product_navigation_simulation_web_portlet_SimulationPortlet_simulationToggleId"> <span class="" id=""> <svg class="lexicon-icon lexicon-icon-simulation-menu-closed" role="img" title="" > <use xlink:href="images/icons.svg#simulation-menu-closed" /> </svg> <span class="taglib-icon-label"> </span> </span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="control-menu-body"> </div>
+        <div id="controlMenuAlertsContainer"></div>
+    </div>
+    <div class="container-fluid" id="wrapper">
+        <header id="banner" role="banner">
+            <div id="heading">
+                <h1 class="site-title"> <a class="logo custom-logo" href="http://localhost:8080/web/guest" title="Go to Лайфрей"> <img alt="" height="85" src="images/layout_set_logo.png" width="195" /> </a> <span class="site-name" title="Go to Лайфрей"> Лайфрей </span> </h1> </div>
+            <nav class="sort-pages modify-pages" id="navigation" role="navigation">
+                <h1 class="hide-accessible">Navigation</h1>
+                <ul aria-label="Site Pages" role="menubar">
+                    <li class="" id="layout_1" role="presentation"> <a aria-labelledby="layout_1" href="http&#x3a;&#x2f;&#x2f;localhost&#x3a;8080&#x2f;web&#x2f;guest&#x2f;home" role="menuitem"><span> Главная</span></a> </li>
+                    <li class="" id="layout_9" role="presentation"> <a aria-labelledby="layout_9" href="http&#x3a;&#x2f;&#x2f;localhost&#x3a;8080&#x2f;web&#x2f;guest&#x2f;calendar" role="menuitem"><span> Календарь</span></a>
+                        <ul class="child-menu" role="menu">
+                            <li class="" id="layout_15" role="presentation"> <a aria-labelledby="layout_15" href="http&#x3a;&#x2f;&#x2f;localhost&#x3a;8080&#x2f;web&#x2f;guest&#x2f;adyn" role="menuitem">Адын (r)</a> </li>
+                            <li class="" id="layout_16" role="presentation"> <a aria-labelledby="layout_16" href="http&#x3a;&#x2f;&#x2f;localhost&#x3a;8080&#x2f;web&#x2f;guest&#x2f;dva" role="menuitem">Два (g)</a> </li>
+                        </ul>
+                    </li>
+                    <li class="" id="layout_10" role="presentation"> <a aria-labelledby="layout_10" href="http&#x3a;&#x2f;&#x2f;localhost&#x3a;8080&#x2f;web&#x2f;guest&#x2f;proekty" role="menuitem"><span> Проекты (cl.)</span></a> </li>
+                    <li class="" id="layout_11" role="presentation"> <a aria-labelledby="layout_11" href="http&#x3a;&#x2f;&#x2f;localhost&#x3a;8080&#x2f;web&#x2f;guest&#x2f;dokumenty" role="menuitem"><span> Документы</span></a> </li>
+                    <li class="" id="layout_12" role="presentation"> <a aria-labelledby="layout_12" href="http&#x3a;&#x2f;&#x2f;localhost&#x3a;8080&#x2f;web&#x2f;guest&#x2f;team" role="menuitem"><span> Team</span></a> </li>
+                    <li aria-selected='true' class="selected" id="layout_13" role="presentation"> <a aria-labelledby="layout_13" aria-haspopup='true' href="http&#x3a;&#x2f;&#x2f;localhost&#x3a;8080&#x2f;web&#x2f;guest&#x2f;forumy" role="menuitem"><span> Форумы (st.)</span></a>
+                        <ul class="child-menu" role="menu">
+                            <li aria-selected='true' class="selected" id="layout_17" role="presentation"> <a aria-labelledby="layout_17" href="http&#x3a;&#x2f;&#x2f;localhost&#x3a;8080&#x2f;web&#x2f;guest&#x2f;podstranica" role="menuitem">Подстраница</a> </li>
+                        </ul>
+                    </li>
+                    <li class="" id="layout_14" role="presentation"> <a aria-labelledby="layout_14" href="http&#x3a;&#x2f;&#x2f;localhost&#x3a;8080&#x2f;web&#x2f;guest&#x2f;baza-znanij" role="menuitem"><span> База знаний</span></a> </li>
+                </ul>
+            </nav>
+        </header>
+        <section id="content">
+            <h1 class="hide-accessible">Подстраница</h1>
+            <nav id="breadcrumbs">
+                <div class="portlet-boundary portlet-boundary_com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet_ portlet-static portlet-static-end portlet-decorate portlet-breadcrumb " id="p_p_id_com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet_">
+                    <section class="portlet" id="portlet_com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet">
+                        <header class="portlet-topper">
+                            <div class="portlet-title-default"> <span class="portlet-name-text">Breadcrumb</span> </div>
+                            <menu class="portlet-topper-toolbar" id="portlet-topper-toolbar_com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet" type="toolbar">
+                                <div class="dropdown dropdown-menu-no-arrow lfr-icon-menu portlet-options">
+                                    <a aria-expanded="false" class="dropdown-toggle icon-monospaced icon-monospaced" data-toggle="dropdown" href="javascript:;" id="_com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet_tiym_null_null_menu" title="Options"> <span class="" id=""> <svg class="lexicon-icon lexicon-icon-ellipsis-v" role="img" title="" > <use xlink:href="images/icons.svg#ellipsis-v" /> </svg> <span class="taglib-icon-label"> </span> </span>
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-right">
+                                        <li class="lfr-js-required portlet-css portlet-css-icon" role="presentation">
+                                            <a href="javascript&#x3a;&#x3b;" class=" lfr-icon-item taglib-icon" id="_com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet_tiym__null__null__menu__look_2d_and_2d_feel_2d_configuration" onClick="" role="menuitem"> <span class="taglib-text-icon">Look and Feel Configuration</span> </a>
+                                        </li>
+                                        <li class="portlet-export-import portlet-export-import-icon" role="presentation">
+                                            <a href="" class=" lfr-icon-item taglib-icon" id="_com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet_tiym__null__null__menu__export_2d__2f__2d_import" onClick="" role="menuitem"> <span class="taglib-text-icon">Export / Import</span> </a>
+                                        </li>
+                                        <li class="portlet-configuration portlet-configuration-icon" role="presentation">
+                                            <a href="" class=" lfr-icon-item taglib-icon" id="_com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet_tiym__null__null__menu__configuration" onClick="" role="menuitem"> <span class="taglib-text-icon">Configuration</span> </a>
+                                        </li>
+                                        <li class="" role="presentation">
+                                            <a href="" class=" lfr-icon-item taglib-icon" id="_com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet_tiym__null__null__menu__permissions" role="menuitem" data-title="Permissions" data-senna-off="true"> <span class="taglib-text-icon">Permissions</span> </a>
+                                        </li>
+                                        <li class="" role="presentation">
+                                            <a href="" class=" lfr-icon-item taglib-icon" id="_com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet_tiym__null__null__menu__configuration_2d_templates" role="menuitem" data-title="Configuration&#x20;Templates" data-senna-off="true"> <span class="taglib-text-icon">Configuration Templates</span> </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </menu>
+                        </header>
+                        <div class="portlet-content portlet-content-editable">
+                            <h2 class="portlet-title-text">Breadcrumb</h2>
+                            <div class=" portlet-content-container">
+                                <div class="portlet-body">
+                                    <div id="_com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet_breadcrumbs-defaultScreen">
+                                        <h1 class="hide-accessible">Breadcrumbs</h1>
+                                        <ul class="breadcrumb breadcrumb-horizontal">
+                                            <li> <a href="/web/guest">Лайфрей</a> </li>
+                                            <li> <a href="http://localhost:8080/web/guest/forumy">Форумы (st.)</a> </li>
+                                            <li> <a href="http://localhost:8080/web/guest/podstranica">Подстраница</a> </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </nav>
+            <div class="columns-1" id="main-content" role="main">
+                <div class="portlet-layout row">
+                    <div class="col-md-12 portlet-column portlet-column-only" id="column-1">
+                        <div class="portlet-dropzone portlet-column-content portlet-column-content-only" id="layout-column_column-1">
+                            <div class="portlet-boundary portlet-boundary_com_liferay_hello_world_web_portlet_HelloWorldPortlet_ portlet-decorate portlet-hello-world " id="p_p_id_com_liferay_hello_world_web_portlet_HelloWorldPortlet_">
+                                <section class="portlet" id="portlet_com_liferay_hello_world_web_portlet_HelloWorldPortlet">
+                                    <header class="portlet-topper">
+                                        <div class="portlet-title-default"> <span class="portlet-name-text">Hello World</span> </div>
+                                        <menu class="portlet-topper-toolbar" id="portlet-topper-toolbar_com_liferay_hello_world_web_portlet_HelloWorldPortlet" type="toolbar">
+                                            <div class="dropdown dropdown-menu-no-arrow lfr-icon-menu portlet-options">
+                                                <a aria-expanded="false" class="dropdown-toggle icon-monospaced icon-monospaced" data-toggle="dropdown" href="javascript:;" id="_com_liferay_hello_world_web_portlet_HelloWorldPortlet_kldx_column1_0_menu" title="Options"> <span class="" id=""> <svg class="lexicon-icon lexicon-icon-ellipsis-v" role="img" title="" > <use xlink:href="images/icons.svg#ellipsis-v" /> </svg> <span class="taglib-icon-label"> </span> </span>
+                                                </a>
+                                                <ul class="dropdown-menu dropdown-menu-right">
+                                                    <li class="lfr-js-required portlet-css portlet-css-icon" role="presentation">
+                                                        <a href="javascript&#x3a;&#x3b;" class=" lfr-icon-item taglib-icon" id="_com_liferay_hello_world_web_portlet_HelloWorldPortlet_kldx__column1__0__menu__look_2d_and_2d_feel_2d_configuration" onClick="" role="menuitem"> <span class="taglib-text-icon">Look and Feel Configuration</span> </a>
+                                                    </li>
+                                                    <li class="portlet-export-import portlet-export-import-icon" role="presentation">
+                                                        <a href="" class=" lfr-icon-item taglib-icon" id="_com_liferay_hello_world_web_portlet_HelloWorldPortlet_kldx__column1__0__menu__export_2d__2f__2d_import" onClick="" role="menuitem"> <span class="taglib-text-icon">Export / Import</span> </a>
+                                                    </li>
+                                                    <li class="portlet-configuration portlet-configuration-icon" role="presentation">
+                                                        <a href="" class=" lfr-icon-item taglib-icon" id="_com_liferay_hello_world_web_portlet_HelloWorldPortlet_kldx__column1__0__menu__configuration" onClick="" role="menuitem"> <span class="taglib-text-icon">Configuration</span> </a>
+                                                    </li>
+                                                    <li class="" role="presentation">
+                                                        <a href="" class=" lfr-icon-item taglib-icon" id="_com_liferay_hello_world_web_portlet_HelloWorldPortlet_kldx__column1__0__menu__permissions" role="menuitem" data-title="Permissions" data-senna-off="true"> <span class="taglib-text-icon">Permissions</span> </a>
+                                                    </li>
+                                                    <li class="" role="presentation">
+                                                        <a href="" class=" lfr-icon-item taglib-icon" id="_com_liferay_hello_world_web_portlet_HelloWorldPortlet_kldx__column1__0__menu__configuration_2d_templates" role="menuitem" data-title="Configuration&#x20;Templates" data-senna-off="true"> <span class="taglib-text-icon">Configuration Templates</span> </a>
+                                                    </li>
+                                                    <li class="item-remove portlet-close portlet-close-icon" role="presentation">
+                                                        <a href="" class=" lfr-icon-item taglib-icon" id="_com_liferay_hello_world_web_portlet_HelloWorldPortlet_kldx__column1__0__menu__remove" onClick="" role="menuitem"> <span class="taglib-text-icon">Remove</span> </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </menu>
+                                    </header>
+                                    <div class="portlet-content portlet-content-editable">
+                                        <h2 class="portlet-title-text">Hello World</h2>
+                                        <div class=" portlet-content-container">
+                                            <div class="portlet-body"> Welcome to Liferay Community Edition Portal 7.0.2 GA3 (Wilberforce / Build 7002 / August 5, 2016). </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <form action="#" id="hrefFm" method="post" name="hrefFm"> <span></span> </form>
+        </section>
+        <footer id="footer" role="contentinfo">
+            <p class="powered-by"> Powered By <a href="http://www.liferay.com" rel="external">Liferay</a> </p>
+        </footer>
+    </div>
+    <div class="closed lfr-product-menu-panel sidenav-fixed sidenav-menu-slider" id="_com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet_sidenavSliderId">
+        <div class="product-menu sidebar sidenav-menu">
+            <div class="portlet-boundary portlet-boundary_com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet_ portlet-static portlet-static-end portlet-decorate " id="p_p_id_com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet_">
+                <div class="lfr-product-menu-sidebar" id="productMenuSidebar">
+                    <h4 class="sidebar-header"> <a href="http://localhost:8080"> <span class="company-details"> <img alt="" class="company-logo" src="images/company_logo.png" /> <span class="company-name">Лайфрей</span> </span> <a href="javascript&#x3a;&#x3b;" class="icon-monospaced sidenav-close visible-xs-block" > <svg class="lexicon-icon lexicon-icon-times" role="img" title="" > <use xlink:href="images/icons.svg#times" /> </svg> <span class="taglib-icon-label"> </span> </a> </a> </h4>
+                    <div class="sidebar-body"> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="closed lfr-admin-panel lfr-product-menu-panel lfr-simulation-panel sidenav-fixed sidenav-menu-slider sidenav-right" id="_com_liferay_product_navigation_simulation_web_portlet_SimulationPortlet_simulationPanelId">
+        <div class="product-menu sidebar sidebar-inverse sidenav-menu">
+            <h4 class="sidebar-header"> <span>Simulation</span> <a href="javascript&#x3a;&#x3b;" class="icon-monospaced sidenav-close" > <svg class="lexicon-icon lexicon-icon-times" role="img" title="" > <use xlink:href="images/icons.svg#times" /> </svg> <span class="taglib-icon-label"> </span> </a> </h4>
+            <div class="sidebar-body"></div>
+        </div>
+    </div>
+    <div class="closed lfr-add-panel lfr-admin-panel sidenav-fixed sidenav-menu-slider sidenav-right" id="_com_liferay_product_navigation_control_menu_web_portlet_ProductNavigationControlMenuPortlet_addPanelId">
+        <div class="product-menu sidebar sidebar-inverse sidenav-menu">
+            <h4 class="sidebar-header"> <span>Add</span> <a href="javascript&#x3a;&#x3b;" class="icon-monospaced sidenav-close" > <svg class="lexicon-icon lexicon-icon-times" role="img" title="" > <use xlink:href="images/icons.svg#times" /> </svg> <span class="taglib-icon-label"> </span> </a> </h4>
+            <div class="sidebar-body"></div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        Liferay.BrowserSelectors.run();
+    </script>
+    <script type="text/javascript">
+        Liferay.Data.layoutConfig = {
+            container: "#main-content",
+            dropNodes: ".portlet-column",
+            handles: Liferay.Data.PORTLET_DRAG_HANDLE_SELECTOR || [".portlet-title-default", ".portlet-topper"],
+            disabledDropContainerClass: "portlet-dropzone-disabled",
+            dragNodes: ".portlet-boundary:not(.portlet-static)",
+            dropContainer: ".portlet-dropzone",
+            emptyColumnClass: "empty",
+            invalid: ".portlet-static",
+            nestedPortletId: "_com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet_INSTANCE",
+            portletBoundary: ".portlet-boundary"
+        };
+    </script>
+    <script type="text/javascript">
+        Liferay.currentURL = "/web/guest/podstranica";
+        Liferay.currentURLEncoded = "%2Fweb%2Fguest%2Fpodstranica";
+    </script>
+    <script type="text/javascript"></script>
+    <script type="text/javascript">
+        Liferay.provide(Liferay.Portlet, "refreshLayout", function(d) {
+            d.isStatic || Liferay.Layout.refresh(d)
+        }, ["liferay-layout"]);
+        Liferay.Portlet.onLoad({
+            canEditTitle: !0,
+            columnPos: 0,
+            isStatic: "end",
+            namespacedId: "p_p_id_com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet_",
+            portletId: "com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet",
+            refreshURL: "/c/portal/render_portlet?p_l_id\x3d40001\x26p_p_id\x3dcom_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d%2Fweb%2Fguest%2Fpodstranica\x26settingsScope\x3dportletInstance"
+        });
+        svg4everybody({
+            polyfill: !0
+        });
+        Liferay.Portlet.onLoad({
+            canEditTitle: !0,
+            columnPos: 0,
+            isStatic: "no",
+            namespacedId: "p_p_id_com_liferay_hello_world_web_portlet_HelloWorldPortlet_",
+            portletId: "com_liferay_hello_world_web_portlet_HelloWorldPortlet",
+            refreshURL: "/c/portal/render_portlet?p_l_id\x3d40001\x26p_p_id\x3dcom_liferay_hello_world_web_portlet_HelloWorldPortlet\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d%2Fweb%2Fguest%2Fpodstranica"
+        });
+        Liferay.Portlet.onLoad({
+            canEditTitle: !0,
+            columnPos: 0,
+            isStatic: "end",
+            namespacedId: "p_p_id_com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet_",
+            portletId: "com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet",
+            refreshURL: "/c/portal/render_portlet?p_l_id\x3d40001\x26p_p_id\x3dcom_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d%2Fweb%2Fguest%2Fpodstranica\x26settingsScope\x3dportletInstance"
+        });
+        AUI().use("aui-tooltip", "io-request", "aui-base", "liferay-store", "event-move", "liferay-poller", "liferay-product-navigation-control-menu", "liferay-icon", "liferay-navigation", "liferay-menu", "liferay-notice", "parse-content", "liferay-layout", function(d) {
+            (function() {
+                var a = new d.TooltipDelegate({
+                    constrain: !0,
+                    position: "bottom",
+                    trigger: ".lfr-portal-tooltip",
+                    visible: !1,
+                    zIndex: Liferay.zIndex.TOOLTIP
+                });
+                Liferay.once("screenLoad", function() {
+                    a.destroy()
+                })
+            })();
+            (function() {
+                var a = AUI.$,
+                    b = a("#_com_liferay_product_navigation_control_menu_web_portlet_ProductNavigationControlMenuPortlet_addToggleId");
+                b.sideNavigation();
+                Liferay.once("screenLoad", function() {
+                    var c = b.data("lexicon.sidenav");
+                    c && c.destroy()
+                })
+            })();
+            (function() {
+                var a = AUI.$,
+                    b = a("#_com_liferay_product_navigation_simulation_web_portlet_SimulationPortlet_simulationToggleId");
+                b.sideNavigation();
+                a = a("#_com_liferay_product_navigation_simulation_web_portlet_SimulationPortlet_simulationPanelId");
+                a.on("open.lexicon.sidenav", function(c) {
+                    Liferay.fire("SimulationMenu:openSimulationPanel")
+                });
+                a.on("closed.lexicon.sidenav", function(c) {
+                    Liferay.fire("SimulationMenu:closeSimulationPanel")
+                });
+                Liferay.once("screenLoad", function() {
+                    var c = b.data("lexicon.sidenav");
+                    c && c.destroy()
+                })
+            })();
+            (function() {
+                var a = AUI.$;
+                Liferay.ControlMenu.init("#controlMenu");
+                var b = a('#ControlMenu [data-toggle\x3d"sidenav"]').toArray().map(function(c) {
+                    return a(c.getAttribute("data-target").split(",")[0])
+                });
+                b.forEach(function(c) {
+                    c.on("openStart.lexicon.sidenav", function(f) {
+                        var g = f.target.getAttribute("id");
+                        b.forEach(function(e) {
+                            e = e.attr("id");
+                            e !== g && a('#ControlMenu [data-toggle\x3d"sidenav"][data-target*\x3d"' + e + '"]').sideNavigation("hide")
+                        })
+                    })
+                })
+            })();
+            d.UA.mobile && Liferay.Util.addInputCancel();
+            (function() {
+                var a = d.one(Liferay.Data.NAV_SELECTOR);
+                Liferay.once("initNavigation", function() {
+                    new Liferay.Navigation({
+                        hasAddLayoutPermission: !0,
+                        layoutIds: [{
+                            deletable: !d.UA.touchMobile && !0,
+                            id: 1,
+                            sortable: !0
+                        }, {
+                            deletable: !d.UA.touchMobile && !0,
+                            id: 9,
+                            sortable: !0
+                        }, {
+                            deletable: !d.UA.touchMobile && !0,
+                            id: 10,
+                            sortable: !0
+                        }, {
+                            deletable: !d.UA.touchMobile && !0,
+                            id: 11,
+                            sortable: !0
+                        }, {
+                            deletable: !d.UA.touchMobile && !0,
+                            id: 12,
+                            sortable: !0
+                        }, {
+                            deletable: !d.UA.touchMobile && !0,
+                            id: 13,
+                            sortable: !0
+                        }, {
+                            deletable: !d.UA.touchMobile && !0,
+                            id: 14,
+                            sortable: !0
+                        }],
+                        navBlock: a
+                    })
+                });
+                if (a)
+                    if (d.UA.touchMobile) AUI.$(Liferay.Data.NAV_SELECTOR_MOBILE).one("shown.bs.collapse", function() {
+                        Liferay.fire("initNavigation")
+                    });
+                    else a.once(["gesturemovestart", "mousemove"], function() {
+                        Liferay.fire("initNavigation")
+                    });
+                d.on("io:complete", function() {
+                    Liferay.fire("io:complete")
+                })
+            })();
+            (function() {
+                new Liferay.Menu;
+                for (var a = Liferay.Data.notices, b = 1; b < a.length; b++) new Liferay.Notice(a[b]);
+                Liferay.Poller.init({
+                    encryptedUserId: "qO27k03OSbIJ5sq6mJcK9g\x3d\x3d",
+                    supportsComet: !1
+                })
+            })();
+            Liferay.Icon.register({
+                forcePost: !1,
+                id: "_com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet_tiym__null__null__menu__permissions",
+                useDialog: !0
+            });
+            Liferay.Icon.register({
+                forcePost: !1,
+                id: "_com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet_tiym__null__null__menu__configuration_2d_templates",
+                useDialog: !0
+            });
+            Liferay.Menu.register("_com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet_tiym_null_null_menu");
+            Liferay.Menu.handleFocus("#_com_liferay_site_navigation_breadcrumb_web_portlet_SiteNavigationBreadcrumbPortlet_tiym_null_null_menumenu");
+            Liferay.Icon.register({
+                forcePost: !1,
+                id: "_com_liferay_hello_world_web_portlet_HelloWorldPortlet_kldx__column1__0__menu__permissions",
+                useDialog: !0
+            });
+            Liferay.Icon.register({
+                forcePost: !1,
+                id: "_com_liferay_hello_world_web_portlet_HelloWorldPortlet_kldx__column1__0__menu__configuration_2d_templates",
+                useDialog: !0
+            });
+            Liferay.Menu.register("_com_liferay_hello_world_web_portlet_HelloWorldPortlet_kldx_column1_0_menu");
+            Liferay.Menu.handleFocus("#_com_liferay_hello_world_web_portlet_HelloWorldPortlet_kldx_column1_0_menumenu");
+            (function() {
+                var a = AUI.$,
+                    b = a("#_com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet_sidenavToggleId");
+                b.sideNavigation();
+                Liferay.once("screenLoad", function() {
+                    var f = b.data("lexicon.sidenav");
+                    f && f.destroy()
+                });
+                var c = a("#_com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet_sidenavSliderId");
+                c.on("closed.lexicon.sidenav", function(f) {
+                    Liferay.Store("com.liferay.product.navigation.product.menu.web_productMenuState",
+                        "closed")
+                });
+                c.on("open.lexicon.sidenav", function(f) {
+                    Liferay.Store("com.liferay.product.navigation.product.menu.web_productMenuState", "open")
+                });
+                Liferay.Util.isPhone() && a("body").hasClass("open") && b.sideNavigation("hide");
+                Liferay.on("ProductMenu:openUserMenu", function(f) {
+                    var g = function() {
+                        var e = a("#_com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet_userCollapse");
+                        e.collapse({
+                            parent: "#_com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet_Accordion",
+                            show: !0
+                        });
+                        e.collapse("show")
+                    };
+                    if (a("body").hasClass("open")) a("#_com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet_userCollapse").hasClass("in") ? b.sideNavigation("hide") : g();
+                    else if (b.sideNavigation("show"), b.attr("data-url"))
+                        if ("resolved" === (c.data("url-loaded") ? c.data("url-loaded").state() : "")) g();
+                        else c.on("urlLoaded.lexicon.sidenav", function(e) {
+                            g()
+                        });
+                    else g()
+                })
+            })()
+        });
+    </script>
+
+    <script src="js/main.js" type="text/javascript"></script>
+
+    <script>
+        var PATH_PORTLET_CONFIGURATION_CSS_WEB = "/o/portlet-configuration-css-web";
+        AUI().applyConfig({
+            groups: {
+                portlet_css: {
+                    base: PATH_PORTLET_CONFIGURATION_CSS_WEB + "/js/",
+                    modules: {
+                        "liferay-look-and-feel": {
+                            path: "look_and_feel.js",
+                            requires: "aui-color-picker-popover aui-io-plugin-deprecated aui-io-request aui-tabview liferay-portlet-url liferay-util-window liferay-widget-zindex".split(" ")
+                        }
+                    },
+                    root: PATH_PORTLET_CONFIGURATION_CSS_WEB + "/js/"
+                }
+            }
+        });
+        Liferay.provide(Liferay.Portlet, "loadCSSEditor", function(a, b, c, d) {
+            Liferay.PortletCSS.init(a, b, c, d)
+        }, ["liferay-look-and-feel"]);
+    </script>
+    <script type="text/javascript">
+        AUI().use("aui-base", function(a) {
+            (a = window.frameElement) && "simulationDeviceIframe" === a.getAttribute("id") && AUI().one("body").addClass("lfr-has-simulation-panel")
+        });
+    </script>
+    <!-- inject:js -->
+    <!-- endinject -->
+</body>
+
+</html>
